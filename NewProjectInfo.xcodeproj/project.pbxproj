@@ -16,6 +16,11 @@
 		18CD616E29CC36D700E06CF6 /* NewProjectInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD616D29CC36D700E06CF6 /* NewProjectInfoTests.swift */; };
 		18CD617829CC36D700E06CF6 /* NewProjectInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD617729CC36D700E06CF6 /* NewProjectInfoUITests.swift */; };
 		18CD617A29CC36D700E06CF6 /* NewProjectInfoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD617929CC36D700E06CF6 /* NewProjectInfoUITestsLaunchTests.swift */; };
+		18CD618729CC383200E06CF6 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CD618629CC383200E06CF6 /* Dashboard.storyboard */; };
+		18CD618A29CC3CD700E06CF6 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD618929CC3CD700E06CF6 /* HomeScreenVC.swift */; };
+		18CD618C29CC3D2600E06CF6 /* FirstScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD618B29CC3D2600E06CF6 /* FirstScreenVC.swift */; };
+		18CD618E29CC3D3900E06CF6 /* SecondScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD618D29CC3D3900E06CF6 /* SecondScreenVC.swift */; };
+		18CD619029CC51EB00E06CF6 /* ThirdScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD618F29CC51EB00E06CF6 /* ThirdScreenVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		18CD617329CC36D700E06CF6 /* NewProjectInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewProjectInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CD617729CC36D700E06CF6 /* NewProjectInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectInfoUITests.swift; sourceTree = "<group>"; };
 		18CD617929CC36D700E06CF6 /* NewProjectInfoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectInfoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18CD618629CC383200E06CF6 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		18CD618929CC3CD700E06CF6 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+		18CD618B29CC3D2600E06CF6 /* FirstScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenVC.swift; sourceTree = "<group>"; };
+		18CD618D29CC3D3900E06CF6 /* SecondScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenVC.swift; sourceTree = "<group>"; };
+		18CD618F29CC51EB00E06CF6 /* ThirdScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreenVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +112,10 @@
 				18CD615629CC36D500E06CF6 /* AppDelegate.swift */,
 				18CD615829CC36D500E06CF6 /* SceneDelegate.swift */,
 				18CD615A29CC36D500E06CF6 /* ViewController.swift */,
+				18CD618829CC3CAB00E06CF6 /* DemoVC */,
 				18CD615C29CC36D500E06CF6 /* Main.storyboard */,
 				18CD615F29CC36D600E06CF6 /* Assets.xcassets */,
+				18CD618629CC383200E06CF6 /* Dashboard.storyboard */,
 				18CD616129CC36D600E06CF6 /* LaunchScreen.storyboard */,
 				18CD616429CC36D600E06CF6 /* Info.plist */,
 			);
@@ -125,6 +137,17 @@
 				18CD617929CC36D700E06CF6 /* NewProjectInfoUITestsLaunchTests.swift */,
 			);
 			path = NewProjectInfoUITests;
+			sourceTree = "<group>";
+		};
+		18CD618829CC3CAB00E06CF6 /* DemoVC */ = {
+			isa = PBXGroup;
+			children = (
+				18CD618929CC3CD700E06CF6 /* HomeScreenVC.swift */,
+				18CD618B29CC3D2600E06CF6 /* FirstScreenVC.swift */,
+				18CD618D29CC3D3900E06CF6 /* SecondScreenVC.swift */,
+				18CD618F29CC51EB00E06CF6 /* ThirdScreenVC.swift */,
+			);
+			path = DemoVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +257,7 @@
 				18CD616329CC36D600E06CF6 /* LaunchScreen.storyboard in Resources */,
 				18CD616029CC36D600E06CF6 /* Assets.xcassets in Resources */,
 				18CD615E29CC36D500E06CF6 /* Main.storyboard in Resources */,
+				18CD618729CC383200E06CF6 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +284,11 @@
 			files = (
 				18CD615B29CC36D500E06CF6 /* ViewController.swift in Sources */,
 				18CD615729CC36D500E06CF6 /* AppDelegate.swift in Sources */,
+				18CD618C29CC3D2600E06CF6 /* FirstScreenVC.swift in Sources */,
+				18CD619029CC51EB00E06CF6 /* ThirdScreenVC.swift in Sources */,
 				18CD615929CC36D500E06CF6 /* SceneDelegate.swift in Sources */,
+				18CD618E29CC3D3900E06CF6 /* SecondScreenVC.swift in Sources */,
+				18CD618A29CC3CD700E06CF6 /* HomeScreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
